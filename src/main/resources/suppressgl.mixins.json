@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "org.phobos.suppressgl.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinGlDebug"
+  ],
+  "client": [
+    "MixinGlDebug"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
